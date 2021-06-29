@@ -160,4 +160,16 @@ footer p {
     flex: 2;
     align-self: center;
   }
+
+  .ideas-ctr {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 2;
+    justify-content: center;
+  }
+
+  .image2 {
+    width: 45%;
+    margin: 5px;
+  }
 }
