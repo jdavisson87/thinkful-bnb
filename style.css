@@ -148,17 +148,17 @@ footer p {
 
   .about-ctr {
     display: flex;
-    flex: 1;
   }
 
   .image1 {
     margin: 5px;
-    flex: 2;
+    flex: 1;
   }
 
   .about-content-ctr {
     flex: 2;
     align-self: center;
+    margin: 10px;
   }
 
   .ideas-ctr {
@@ -171,5 +171,20 @@ footer p {
   .image2 {
     width: 45%;
     margin: 5px;
+  }
+
+  .host-ctr {
+    display: flex;
+  }
+
+  .host-text {
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+  }
+
+  .host-img {
+    flex: 1;
+    align-self: center;
   }
 }
