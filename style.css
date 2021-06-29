@@ -129,7 +129,35 @@ footer p {
 
 @media all and (min-width: 480px) {
   header {
+    text-align: left;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav {
+    justify-content: flex-end;
+  }
+
+  header nav ul {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 42px;
+  }
+
+  .about-ctr {
+    display: flex;
+    flex: 1;
+  }
+
+  .image1 {
+    margin: 5px;
+    flex: 2;
+  }
+
+  .about-content-ctr {
+    flex: 2;
+    align-self: center;
   }
 }
