@@ -94,6 +94,11 @@ form {
   padding: 10px;
 }
 
+form fieldset div {
+  display: flex;
+  justify-content: space-between;
+}
+
 form label {
   font-weight: bold;
 }
