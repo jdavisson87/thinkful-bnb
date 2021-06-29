@@ -34,22 +34,6 @@ main img {
   width: 100%;
 }
 
-/* ---  Groups & Items --- */
-
-.group {
-  display: flex;
-  flex-direction: column;
-}
-
-.item {
-  flex: 1;
-  margin: 10px;
-}
-
-.item-double {
-  flex: 2;
-}
-
 /* -------  Navigation ------- */
 
 header {
@@ -170,11 +154,10 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     flex: 2;
-    justify-content: center;
   }
 
   .image2 {
-    width: 45%;
+    width: 47%;
     margin: 5px;
   }
 
