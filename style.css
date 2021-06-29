@@ -176,7 +176,9 @@ footer p {
     flex: 1;
     align-self: center;
   }
+}
 
+@media all and (min-width: 1000px) {
   form {
     display: flex;
     justify-content: space-between;
